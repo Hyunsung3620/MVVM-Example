@@ -14,6 +14,7 @@
 		6DA146D22870D3280066321E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA146D12870D3280066321E /* Assets.xcassets */; };
 		6DA146D52870D3280066321E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA146D32870D3280066321E /* LaunchScreen.storyboard */; };
 		6DA146E12870E0510066321E /* WeatherApiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DA146E02870E0510066321E /* WeatherApiKey.plist */; };
+		6DEDE9682871822300001BC3 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDE9672871822300001BC3 /* WeatherDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6DA146D42870D3280066321E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA146D62870D3280066321E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DA146E02870E0510066321E /* WeatherApiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeatherApiKey.plist; sourceTree = "<group>"; };
+		6DEDE9672871822300001BC3 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		6DA146C72870D3270066321E /* MVVM Example */ = {
 			isa = PBXGroup;
 			children = (
+				6DEDE9672871822300001BC3 /* WeatherDataModel.swift */,
 				6DA146C82870D3270066321E /* AppDelegate.swift */,
 				6DA146CA2870D3270066321E /* SceneDelegate.swift */,
 				6DA146CC2870D3270066321E /* ViewController.swift */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEDE9682871822300001BC3 /* WeatherDataModel.swift in Sources */,
 				6DA146CD2870D3270066321E /* ViewController.swift in Sources */,
 				6DA146C92870D3270066321E /* AppDelegate.swift in Sources */,
 				6DA146CB2870D3270066321E /* SceneDelegate.swift in Sources */,
