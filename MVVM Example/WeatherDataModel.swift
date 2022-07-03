@@ -1,7 +1,7 @@
 import Foundation
 
 // MARK: - Weather Data Model Struct 구조체
-struct weatherData: Decodable {
+struct WeatherData: Decodable {
     let weather: [Weather]
     let main: Main
     let name: String
