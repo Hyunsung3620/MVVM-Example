@@ -13,6 +13,7 @@
 		6DA146D02870D3270066321E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA146CE2870D3270066321E /* Main.storyboard */; };
 		6DA146D22870D3280066321E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA146D12870D3280066321E /* Assets.xcassets */; };
 		6DA146D52870D3280066321E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA146D32870D3280066321E /* LaunchScreen.storyboard */; };
+		6DA146E12870E0510066321E /* WeatherApiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DA146E02870E0510066321E /* WeatherApiKey.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6DA146D12870D3280066321E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DA146D42870D3280066321E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA146D62870D3280066321E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA146E02870E0510066321E /* WeatherApiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeatherApiKey.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6DA146D12870D3280066321E /* Assets.xcassets */,
 				6DA146D32870D3280066321E /* LaunchScreen.storyboard */,
 				6DA146D62870D3280066321E /* Info.plist */,
+				6DA146E02870E0510066321E /* WeatherApiKey.plist */,
 			);
 			path = "MVVM Example";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA146E12870E0510066321E /* WeatherApiKey.plist in Resources */,
 				6DA146D52870D3280066321E /* LaunchScreen.storyboard in Resources */,
 				6DA146D22870D3280066321E /* Assets.xcassets in Resources */,
 				6DA146D02870D3270066321E /* Main.storyboard in Resources */,
